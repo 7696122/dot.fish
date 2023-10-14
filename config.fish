@@ -19,17 +19,17 @@ set -x BAT_THEME GitHub
 # set -x NODE_VERSIONS=~/.nvm/versions/node
 set -x NODE_OPTIONS --max_old_space_size=4096
 # [[file:20230812T085516--dot-fish__dotfiles.org::path][path]]
-fish_add_path -mP ~/.config/emacs/.local/cache/share/eclipse.jdt.ls/bin/
-fish_add_path -mP /usr/local/opt/grep/libexec/gnubin
-fish_add_path -mP /home/im7696122/.local/bin
-fish_add_path -mP $HOME/go/bin
-fish_add_path -mP ~/.nimble/bin
-fish_add_path -mP ~/.cargo/bin
-fish_add_path -mP /usr/libexec
+# fish_add_path -mP ~/.config/emacs/.local/cache/share/eclipse.jdt.ls/bin/
+# fish_add_path -mP /usr/local/opt/grep/libexec/gnubin
+# fish_add_path -mP /home/im7696122/.local/bin
+# fish_add_path -mP $HOME/go/bin
+# fish_add_path -mP ~/.nimble/bin
+# fish_add_path -mP ~/.cargo/bin
+# fish_add_path -mP /usr/libexec
 
 # [[file:20230812T085516--dot-fish__dotfiles.org::doom@path][doom@path]]
-fish_add_path $HOME/.config/emacs/bin
-fish_add_path $HOME/org/cask/bin
+# fish_add_path -mP ~/.config/emacs/bin
+# fish_add_path $HOME/org/cask/bin
 # doom@path ends here
 # 
 # 
@@ -41,10 +41,10 @@ alias vi="vim"
 alias vim="nvim"
 alias bat="batcat"
 alias cat="bat"
-alias ls="exa -F"
-alias ll="exa -l -g --icons"
-alias la="exa -a"
-alias lt="exa --tree"
+# alias ls="exa -F"
+# alias ll="exa -l -g --icons"
+# alias la="exa -a"
+# alias lt="exa --tree"
 alias lla="ll -a"
 # alias ends here
 
